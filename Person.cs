@@ -21,8 +21,7 @@ namespace DefiningClasses
             Age = age;  
         }
 
-        public Person(string name, int age)
-            : this(age)
+        public Person(string name, int age)          
         {
             Name = name;
             Age = age;
